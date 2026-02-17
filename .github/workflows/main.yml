@@ -43,4 +43,3 @@ jobs:
           PASSED=$(grep -c '"result":"success"' machine_results.json || echo "0")
           FAILED=$(grep -c '"result":"failure"' machine_results.json || echo "0")
           echo "Relatório: $PASSED aprovados / $FAILED reprovados."
-s
